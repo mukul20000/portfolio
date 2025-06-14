@@ -4,5 +4,5 @@
 - Contains animations when scrolling.
 - Smooth scrolling in each section.
 
-![preview img](/preview.png)
+![preview img](/preview1.png)
 
