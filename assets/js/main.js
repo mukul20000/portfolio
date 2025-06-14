@@ -2,6 +2,7 @@
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
+    console.log("🚀 ~ showMenu ~ nav:", nav)
 
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
