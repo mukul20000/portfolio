@@ -509,6 +509,7 @@ img {
   border-radius: 1rem;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
   max-width: 900px;
+  justify-content: center;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -691,6 +692,13 @@ img {
     padding-top: 2rem;
   }
 
+  .education__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   .contact__form {
     width: 360px;
     padding-top: 2rem;
@@ -756,6 +764,10 @@ img {
   }
 
   .about__img img {
+    width: 300px;
+  }
+
+  .education__logo img {
     width: 300px;
   }
 
